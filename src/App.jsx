@@ -20,7 +20,7 @@ function App() {
 
   // Fetch data function with better error handling
   async function loadData(query, category, page) {
-    const baseEndpoint = `https://newsapi.org/v2/top-headlines?country=eg&pageSize=${DEFAULT_PAGE_SIZE}&category=${category}&page=${page}&apiKey=${
+    const baseEndpoint = `https://newsapi.org/v2/top-headlines?country=us&pageSize=${DEFAULT_PAGE_SIZE}&category=${category}&page=${page}&apiKey=${
       import.meta.env.VITE_NEWS_API_KEY
     }`;
 

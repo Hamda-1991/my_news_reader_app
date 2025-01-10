@@ -51,7 +51,7 @@ const StyledSelect = styled(Select)(({ theme }) => ({
   },
   margin: theme.spacing(2),
   width: 200,
-  height: 40,
+  height: 30,
 }));
 
 const StyledMenuItem = styled(MenuItem)(({ theme }) => ({
